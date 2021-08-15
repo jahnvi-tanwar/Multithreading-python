@@ -1,7 +1,7 @@
 import os, time, sys, shutil
 import concurrent.futures
 
-#gives best result with 2 threads
+#gives best result with 13 threads
 mThreads = 13
 
 #take command line arguments if any
