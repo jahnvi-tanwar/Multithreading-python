@@ -42,7 +42,7 @@ def upperFile(fileNo):
     fout.close()
 
 def upperFileBundle(file1, file2):
-    with concurrent.futures.ThreadPoolExecutor(max_workers=1) as exec:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=mThreads) as exec:
         for i in range(file1,file2):
             exec.submit(upperFile,i)
         
