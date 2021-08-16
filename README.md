@@ -11,5 +11,21 @@ Create files, process them and then store the output in new files. Complete the 
 - plot_threads.py file is used to plot number of thread vs time graph which is result of main.py program (reportBundle/report_bundle).
 - plot_graph.py file is used to plot  number of files vs time double line graph comparing the result of task performed with multithreading and without multithreading.
 
+# Observations
+
+Table 1: Comparing execution time of capitalizing file text with multithreading and without multithreading while increasing the number of files by 100 
+
+Number of Files | Time Taken Without Multithreading (s) | Time Taken With Multithreading (s)
+--------------- | ---------------------------------|-----------------------------------
+100 | 5.928765299999999| 4.4919286
+200 | 12.395257399999998 | 9.179343
+300  | 18.0341118 |13.407797599999999
+400  | 24.9510425 | 18.411698199999996
+500  | 31.692379400000007 | 23.569934600000003
+
+Graph 1:
+
+![alt text](https://github.com/jahnvi-tanwar/Multithreading-python/blob/main/compare/compare.png)
+
 
 
