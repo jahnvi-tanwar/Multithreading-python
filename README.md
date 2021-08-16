@@ -2,6 +2,9 @@
 
 Create files, process them and then store the output in new files. Complete the task faster with multithreading in python.
 
+# Key Concept
+Multithreading - Multithreading is defined as the ability of a processor to execute multiple threads concurrently.
+
 # Task Performed
 
 - For this experiment blocks of 100, 200, 300, 400 and 500 files were given as input.
@@ -13,21 +16,7 @@ Create files, process them and then store the output in new files. Complete the 
 
 # Observations
 
-Table 1: Comparing execution time of capitalizing file text with multithreading and without multithreading while increasing the number of files by 100 
-
-Number of Files | Time Taken Without Multithreading (s) | Time Taken With Multithreading (s)
---------------- | ---------------------------------|-----------------------------------
-100 | 5.928765299999999| 4.4919286
-200 | 12.395257399999998 | 9.179343
-300  | 18.0341118 |13.407797599999999
-400  | 24.9510425 | 18.411698199999996
-500  | 31.692379400000007 | 23.569934600000003
-
-Graph 1:
-
-![alt text](https://github.com/jahnvi-tanwar/Multithreading-python/blob/main/compare/compare.png)
-
-Table 2: Comparing execution time of task with varying number of threads
+Table 1: Comparing execution time of task with varying number of threads
 
 Number of Active Threads | Time Taken (s)
 -------------------------|--------------
@@ -52,9 +41,32 @@ Number of Active Threads | Time Taken (s)
 19 | 184.4623961999996
 20 | 183.6998639999997
 
-Graph 2:
+Graph 1:
 
 ![alt text](https://github.com/jahnvi-tanwar/Multithreading-python/blob/main/reportBundle/Figure_1.png)
+
+  Optimal Number of threads = 13
+
+Table 2: Comparing execution time of capitalizing file text with multithreading and without multithreading while increasing the number of files by 100 
+
+Number of threads used = 13
+
+Number of Files | Time Taken Without Multithreading (s) | Time Taken With Multithreading (s)
+--------------- | ---------------------------------|-----------------------------------
+100 | 5.928765299999999| 4.4919286
+200 | 12.395257399999998 | 9.179343
+300  | 18.0341118 |13.407797599999999
+400  | 24.9510425 | 18.411698199999996
+500  | 31.692379400000007 | 23.569934600000003
+
+Graph 2:
+
+![alt text](https://github.com/jahnvi-tanwar/Multithreading-python/blob/main/compare/compare.png)
+
+# Findings:
+
+From graph 2 it is evident that the task performed using multithtreading takes less time. 
+Percent decrease in time : 41.01 %
 
 
 
