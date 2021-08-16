@@ -66,7 +66,7 @@ Graph 2:
 # Findings:
 
 From graph 2 it is evident that the task performed using multithtreading takes less time. 
-Percent decrease in time : 41.01 %
+<br/>Percent decrease in time : 41.01 %
 
 
 
