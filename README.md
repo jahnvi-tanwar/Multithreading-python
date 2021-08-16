@@ -27,5 +27,34 @@ Graph 1:
 
 ![alt text](https://github.com/jahnvi-tanwar/Multithreading-python/blob/main/compare/compare.png)
 
+Table 2: Comparing execution time of task with varying number of threads
+
+Number of Active Threads | Time Taken (s)
+-------------------------|--------------
+1 | 178.6066401
+2 | 105.1272653
+3 | 108.79899689999996
+4 | 109.43347
+5 | 112.5836483
+6 | 110.23512860000005
+7 | 108.70159110000009
+8 | 108.72304239999994
+9 | 108.46342220000008
+10 | 107.34687000000008
+11 | 107.41258169999992
+12 | 105.55386950000002
+13 | 105.11554070000011
+14 | 105.2745797
+15 | 112.48382250000009
+16 | 167.87644279999995
+17 | 177.6086292
+18 | 185.2006136
+19 | 184.4623961999996
+20 | 183.6998639999997
+
+Graph 2:
+
+![alt text](https://github.com/jahnvi-tanwar/Multithreading-python/blob/main/reportBundle/Figure_1.png)
+
 
 
